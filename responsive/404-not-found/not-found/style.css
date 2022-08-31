@@ -1,0 +1,59 @@
+body {
+    font-family: 'Space Mono', monospace;
+
+}
+.oscuro {
+    font-weight: 700;
+}
+
+.claro {
+    font-weight: 400;
+}
+
+.negro {
+    background-color: #333333;
+}
+
+.Lblanca {
+    color: white;
+}
+
+@media(max-width: 425px) {
+    .Grande {
+        display: none;
+    }
+    .Ctamano {
+        margin-top: 50px;
+        width: 216px;
+        height: 68px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .BLc {
+        font-size: 14px;
+    }
+    .Cletra {
+        font-size: 48px;
+    }
+
+    .Cletra2 {
+        font-size: 18px;
+    }
+
+    .Cimagen {
+        display: flex;
+        justify-content: center;
+    }
+    .imagen {
+        width: 286.83px;
+        height: 238px;
+    }
+
+}
+@media(min-width:426px) {
+    .Chico {
+        display: none;
+    }
+}
