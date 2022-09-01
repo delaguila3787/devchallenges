@@ -7,7 +7,14 @@ body {
 }
 
 .claro {
-    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: gray;
+}
+
+.letra-incons {
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
 }
 
 .negro {
@@ -18,40 +25,70 @@ body {
     color: white;
 }
 
+.subrayado {
+    text-decoration: underline;
+}
+
 @media(max-width: 425px) {
     .Grande {
         display: none;
     }
+
+    .Cprincipal {
+        display: flex;
+        flex-direction: column;
+    }
+
     .Ctamano {
         margin-top: 50px;
+        margin-left: 24px;
         width: 216px;
         height: 68px;
         display: flex;
         justify-content: center;
         align-items: center;
+
     }
+
+   .letra-incons {
+    font-size: 24px;
+   }
 
     .BLc {
         font-size: 14px;
     }
     .Cletra {
         font-size: 48px;
+        margin-left: 24px;
     }
 
     .Cletra2 {
         font-size: 18px;
+        letter-spacing: -0.035en;
+        margin-left: 23px;
     }
 
     .Cimagen {
         display: flex;
         justify-content: center;
     }
+
     .imagen {
         width: 286.83px;
         height: 238px;
     }
 
+    .usuario {
+        margin-top: 210px;
+        margin-left: 42px;
+    }
+
+    .claro {
+        color: #BDBDBD;
+    }
+
 }
+
 @media(min-width:426px) {
     .Chico {
         display: none;
