@@ -30,6 +30,10 @@ body {
 }
 
 @media(max-width: 425px) {
+    body {
+        width: 375px;
+        height: 949px;
+    }
     .Grande {
         display: none;
     }
@@ -93,4 +97,14 @@ body {
     .Chico {
         display: none;
     }
+
+    .imagen {
+        width: 539.22px;
+        height: 447.43px;
+    }
+    .Pgrande {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
